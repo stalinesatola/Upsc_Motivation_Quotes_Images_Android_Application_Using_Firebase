@@ -1,0 +1,114 @@
+{
+  "project_info": {
+    "project_number": "217006060601",
+    "firebase_url": "https://upsc-motivation-image.firebaseio.com",
+    "project_id": "upsc-motivation-image",
+    "storage_bucket": "upsc-motivation-image.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:217006060601:android:5d6dc750b5090489",
+        "android_client_info": {
+          "package_name": "novussofts.mehndiadmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "217006060601-gje20419ee2a1kdak63iu635jpvt29sq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "novussofts.mehndiadmin",
+            "certificate_hash": "955decbac4a4b302b9a778e8f8be3f9463f71e57"
+          }
+        },
+        {
+          "client_id": "217006060601-fni5v5abjefmico5ch1kur6lbmsnibkf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyArOkT3AAhy-TLlIvS4IWbluUykb3VIqB8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "217006060601-fni5v5abjefmico5ch1kur6lbmsnibkf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:217006060601:android:51453bd259611af2",
+        "android_client_info": {
+          "package_name": "upsc.motivational.quotes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "217006060601-fni5v5abjefmico5ch1kur6lbmsnibkf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyArOkT3AAhy-TLlIvS4IWbluUykb3VIqB8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "217006060601-fni5v5abjefmico5ch1kur6lbmsnibkf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:217006060601:android:d079e2d253858507",
+        "android_client_info": {
+          "package_name": "upsc.motivational.quotesforu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "217006060601-i8iiki9ilf4nvm45brr99mqcro6cv2da.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "upsc.motivational.quotesforu",
+            "certificate_hash": "955decbac4a4b302b9a778e8f8be3f9463f71e57"
+          }
+        },
+        {
+          "client_id": "217006060601-fni5v5abjefmico5ch1kur6lbmsnibkf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyArOkT3AAhy-TLlIvS4IWbluUykb3VIqB8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "217006060601-fni5v5abjefmico5ch1kur6lbmsnibkf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

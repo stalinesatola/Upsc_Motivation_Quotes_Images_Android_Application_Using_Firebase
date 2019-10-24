@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Upsc Motivation</string>
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- Test ads
+    <string name="banner">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="inter">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="video">ca-app-pub-3940256099942544/5224354917</string>-->
+
+    <string name="banner">ca-app-pub-1621029291855475/1412316142</string>
+    <string name="inter">ca-app-pub-1621029291855475/6738710731</string>
+    <string name="video">ca-app-pub-1621029291855475/7862415678</string>
+
+</resources>

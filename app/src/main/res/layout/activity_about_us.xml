@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#000000"
+    android:layout_height="match_parent">
+
+
+<ScrollView
+    android:id="@+id/scroll"
+    android:layout_above="@+id/joinUs"
+    android:layout_width="match_parent"
+    android:background="#ffffff"
+    android:layout_alignParentTop="true"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:id="@+id/linear"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <!--  Developer Account-->
+
+    <LinearLayout
+        android:id="@+id/ll1"
+        android:layout_width="match_parent"
+        android:layout_margin="5sp"
+        android:background="#000000"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/txt11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="App Developed By"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:background="#ffffff"
+            android:layout_margin="5sp"
+            android:padding="5sp"
+            android:layout_gravity="center"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:id="@+id/txt12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Giriraj Nagar\n( Giri Softs )\n+91 8619329754\nmailtomr.giri@gmail.com"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:layout_margin="5sp"
+            android:padding="5sp"
+            android:layout_gravity="center"
+            android:textColor="#ffffff"/>
+        <LinearLayout
+            android:id="@+id/btn11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5sp"
+            android:layout_marginTop="5sp"
+            android:layout_marginBottom="5sp"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="10sp"
+            android:background="#ffffff"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_playstore"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:text="More Created Apps"
+                android:textSize="18sp"
+                android:textColor="#000000"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/btn12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5sp"
+            android:layout_marginTop="5sp"
+            android:layout_marginBottom="5sp"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="10sp"
+            android:background="#ffffff"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_email"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:text="Contact By Mail"
+                android:textSize="18sp"
+                android:textColor="#000000"/>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+    <!-- Thoughts written by  -->
+
+
+    <LinearLayout
+        android:id="@+id/thought"
+        android:layout_width="match_parent"
+        android:layout_margin="5sp"
+        android:background="#000000"
+        android:weightSum="3"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/written"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Our Thoughts Writer"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:background="#000000"
+            android:layout_margin="5sp"
+            android:padding="5sp"
+            android:layout_gravity="center"
+            android:textColor="#ffffff"/>
+
+
+
+        <LinearLayout
+            android:id="@+id/writer1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5sp"
+            android:layout_marginTop="5sp"
+            android:layout_marginBottom="5sp"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="10sp"
+            android:background="#ffffff"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_instagram"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:text="Aditya Kumar Mishra-UPSC4U\n(RDM)-Instagram"
+                android:textSize="15sp"
+                android:textColor="#000000"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/writer2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5sp"
+            android:layout_marginTop="5sp"
+            android:layout_marginBottom="5sp"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="10sp"
+            android:background="#ffffff"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_instagram"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:text="Apurva Singh-UPSC Motivation IAS-Instagram"
+                android:textSize="15sp"
+                android:textColor="#000000"/>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+    <!--  Upsc Instagram-->
+
+
+
+    <LinearLayout
+        android:id="@+id/ll2"
+        android:layout_width="match_parent"
+        android:layout_margin="5sp"
+        android:background="#000000"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/txt21"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="UPSC4U Comminity"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:background="#ffffff"
+            android:layout_margin="5sp"
+            android:padding="5sp"
+            android:layout_gravity="center"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:id="@+id/txt22"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="AFsdffddfsdfszfszdfsdfsf"
+            android:layout_margin="5sp"
+            android:padding="5sp"
+            android:textColor="#ffffff"/>
+
+        <LinearLayout
+            android:id="@+id/btn21"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5sp"
+            android:layout_marginTop="5sp"
+            android:layout_marginBottom="5sp"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="10sp"
+            android:background="#ffffff"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_instagram"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:text="UPSC4U Instagram"
+                android:textSize="18sp"
+                android:textColor="#000000"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/btn22"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5sp"
+            android:layout_marginTop="5sp"
+            android:layout_marginBottom="5sp"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="10sp"
+            android:background="#ffffff"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_facebook"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:text="UPSC4U Facebook Page"
+                android:textSize="18sp"
+                android:textColor="#000000"/>
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/btn23"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5sp"
+            android:layout_marginTop="5sp"
+            android:layout_marginBottom="5sp"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="10sp"
+            android:background="#ffffff"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_domain"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:text="UPSC4U Website"
+                android:textSize="18sp"
+                android:textColor="#000000"/>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
+</ScrollView>
+    <Button
+        android:id="@+id/joinUs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Join Now(One Man One Hundred Talent) "
+        android:layout_centerHorizontal="true"
+        android:textSize="15sp"
+        android:background="#ffffff"
+        android:layout_margin="5sp"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center"
+        android:textColor="#000000"/>
+
+</RelativeLayout>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:weightSum="2"
+    android:layout_margin="2sp"
+    android:padding="2sp"
+    android:background="#2A857E">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="3"
+            android:orientation="vertical"
+            android:background="@drawable/roundimage">
+
+        <ImageView
+            android:id="@+id/img"
+            android:layout_width="match_parent"
+            android:layout_height="250sp"
+            android:background="@drawable/roundimage"
+            android:scaleType="fitXY"
+            android:src="@drawable/upsc4u1"/>
+
+        <TextView
+            android:id="@+id/desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:padding="5sp"
+            android:text="Upsc4u\nThoughts"
+            android:background="#D8000000"
+            android:textStyle="bold"
+            android:textSize="20sp">
+        </TextView>
+
+            <TextView
+                android:id="@+id/clicktxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#3F51B5"
+                android:padding="5sp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:gravity="center"
+                android:text="Click Here"
+                android:background="#E4000000"
+                android:textStyle="bold"
+                android:textSize="25sp">
+            </TextView>
+        </LinearLayout>
+</RelativeLayout>

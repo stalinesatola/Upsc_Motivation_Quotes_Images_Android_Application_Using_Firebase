@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/linear"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_margin="2sp"
+    android:padding="2sp"
+    android:background="@drawable/border"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/item"
+        android:scaleType="fitXY"
+        android:background="@drawable/border"
+        android:layout_width="match_parent"
+        android:src="@drawable/splash1"
+        android:layout_height="350sp" />
+
+</LinearLayout>

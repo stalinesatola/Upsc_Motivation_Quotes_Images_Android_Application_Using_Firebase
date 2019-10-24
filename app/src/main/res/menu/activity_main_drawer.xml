@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/ic_home"
+            android:title="Home" />
+        <item
+            android:id="@+id/rateUs"
+            android:icon="@drawable/ic_rate_us"
+            android:title="Rate Us" />
+        <item
+            android:id="@+id/aboutUs"
+            android:icon="@drawable/ic_privacy_policy"
+            android:title="About Us" />
+
+        <item
+            android:id="@+id/shareApp"
+            android:icon="@drawable/ic_share"
+            android:title="Share App" />
+
+        <item
+            android:id="@+id/contactUs"
+            android:icon="@drawable/ic_email"
+            android:title="Contact US" />
+
+        <item
+            android:id="@+id/notification"
+            android:icon="@drawable/ic_notification"
+            android:title="Notification" />
+
+        <item
+            android:id="@+id/checkForUpdate"
+            android:icon="@drawable/ic_rate_us"
+            android:title="Check For Update" />
+
+        <item
+            android:id="@+id/more"
+            android:icon="@drawable/ic_privacy_policy"
+            android:title="More You May Like" />
+
+    </group>
+
+
+
+</menu>
